@@ -1,0 +1,8 @@
+.flat {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    height: 328px;
+    background: rgba(16, 20, 24, 0.70);
+}

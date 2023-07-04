@@ -1,0 +1,101 @@
+.NavHome {
+    max-width: 100%;
+    width: 988px;
+    margin-top: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101418;
+}
+
+.NavHome .logo {
+    width: 79px;
+    height: 76px;
+    cursor: pointer;
+}
+
+.NavHome .navs {
+    width: 518px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavHome .navs ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.NavHome .navs ul a {
+    color: #FFFFCC;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.NavHome .navs ul li img {
+    width: 19px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.NavHome .btn button {
+    width: 272px;
+    height: 76px;
+    color: #FFFFFF;
+    background-color: #A08040;
+    font-size: 21px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.NavHome .btn button span {
+    display: inline-block;
+    width: 35px;
+    height: 3px;
+    background-color: white;
+}
+
+.NavHome .icon i {
+    color: #A08040;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (min-width: 890px) {
+    .NavHome .icon {
+        display: none;
+    }
+    .NavHome .navs {
+        display: block;
+    }
+}
+
+@media (max-width: 890px) {
+    .NavHome .icon {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    .NavHome .icon i {
+        position: absolute;
+        right: 20px;
+        bottom: -15px;
+    }
+    .NavHome .navs {
+        display: none;
+    }
+}

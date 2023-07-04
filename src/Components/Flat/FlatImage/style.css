@@ -1,0 +1,10 @@
+.flatImage {
+    display: grid;
+    place-items: center;
+}
+.flatImage img {
+    position: absolute;
+    bottom: -55px;
+    width: 450px;
+    height: 422px;
+}

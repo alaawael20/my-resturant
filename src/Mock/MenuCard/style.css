@@ -1,0 +1,38 @@
+.menuCard {
+    width: 490px;
+    height: 64px;
+    display: flex;
+    position: relative;
+}
+
+.menuCard .show {
+    width: 240px;
+    margin-left: 11px;
+}
+
+.menuCard .show p:nth-of-type(1) {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.menuCard .show p:nth-of-type(2) {
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.menuCard span {
+    border: 2px solid #FFCE6D;
+    height: 123px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 390px;
+    bottom: -30px;
+}
+.menuCard .menuPrice {
+    color: #FFCE6D;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    right: -50px;
+    top: 10px;
+}

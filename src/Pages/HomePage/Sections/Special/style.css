@@ -1,0 +1,25 @@
+.special {
+    background: rgba(16, 20, 24, 0.70);
+    padding-top: 26px;
+    padding-bottom: 96px;
+}
+.SpecialCards {
+    margin-top: 70px;
+    margin-inline: 42px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 102px;
+}
+
+@media (max-width: 1400px) {
+    .SpecialCards {
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .SpecialCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

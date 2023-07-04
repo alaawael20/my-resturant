@@ -1,0 +1,52 @@
+.AboutContent {
+    margin-top: 144px;
+    width: 694px;
+}
+
+h2 {
+    color: #FFCE6D;
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    line-height: 117.3%;
+    letter-spacing: 3.6px;
+}
+
+p:nth-of-type(1) {
+    color: #FFFFFC;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+p:nth-of-type(2) {
+    width: 568px;
+    height: 171px;
+    color: #FFFFFC;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 155.3%;
+    letter-spacing: 1.82px;
+    text-transform: capitalize;
+    margin-top: 56px;
+    margin-bottom: 66px;
+}
+
+@media (max-width: 990px) {
+    .AboutContent {
+        display: grid;
+        place-items: center;
+    }
+    p:nth-of-type(1), p:nth-of-type(2) {
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) {
+    p:nth-of-type(1) {
+        font-size: 20px;
+    }
+}

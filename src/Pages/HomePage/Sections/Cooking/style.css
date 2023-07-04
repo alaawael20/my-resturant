@@ -1,0 +1,13 @@
+.cooking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 123px;
+}
+
+@media (max-width: 990px) {
+    .cooking {
+        flex-direction: column;
+    }
+}

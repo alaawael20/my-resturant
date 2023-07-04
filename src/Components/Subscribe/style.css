@@ -1,0 +1,62 @@
+.addSubscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    overflow: hidden;
+}
+.addSubscribe .email i {
+    color: #A08040;
+    font-size: 20px;
+}
+.addSubscribe .email i span {
+    color: #FFFFFC;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.addSubscribe .inputSubscribe {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.addSubscribe .inputSubscribe input {
+    color: #FFF;
+    font-size: 12px;
+    width: 407px;
+    height: 55px;
+    outline: none;
+    border: 1px solid #FFC;
+    background: transparent;
+    padding-left: 30px;
+}
+.addSubscribe .inputSubscribe input::placeholder {
+    color: #FFFFFC;
+    font-size: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 155.3%;
+    letter-spacing: 1.56px;
+    text-transform: capitalize;
+}
+@media (max-width: 1100px) {
+    .addSubscribe {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media (max-width: 700px) {
+    .addSubscribe .inputSubscribe input {
+        width: 320px;
+    }
+}
+@media (max-width: 600px) {
+    .addSubscribe .inputSubscribe {
+        flex-direction: column;
+    }
+}

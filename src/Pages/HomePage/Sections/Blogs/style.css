@@ -1,0 +1,16 @@
+.BlogsCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 50;
+}
+@media (max-width: 1200px) {
+    .BlogsCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 790px) {
+    .BlogsCards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,7 @@
+.landing {
+    background: linear-gradient(0deg, rgba(16, 20, 24, 1), rgba(16, 20, 24, 0)), url('../../../../assets/background1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 894px;
+}

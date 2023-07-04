@@ -1,0 +1,46 @@
+.Links {
+    display: grid;
+    place-items: center;
+}
+.Links .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.Links .title h3 {
+    color: #FFFCCC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Links .description {
+    width: 302px;
+    height: 83px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.Links .description p {
+    color: #FFFFFC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.3%;
+    letter-spacing: 2.08px;
+    text-transform: capitalize;
+}
+.Links .socialLinks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.Links .socialLinks i {
+    color: #FFFFFF;
+    background: #333539;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}

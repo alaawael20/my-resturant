@@ -1,0 +1,48 @@
+.BlogsCard {
+    width: 410px;
+    height: 527px;
+    background: rgba(16, 20, 24, 0.70);
+    margin: 70px 50px;
+}
+.BlogsCard p:nth-of-type(1) {
+    color: #FFFFFC;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.BlogsCard p:nth-of-type(2) {
+    width: 365px;
+    height: 68px;
+    color: #FFFFFC;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.3%;
+    text-transform: capitalize;
+    margin-top: 17px;
+    margin-left: 45px;
+    margin-bottom: 0;
+}
+.BlogsCard button {
+    width: 94px;
+    height: 20px;
+    color: #FFFFFC;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 27px;
+    margin-left: 45px;
+    padding-bottom: 4px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #FFCE6D;
+    outline: none;
+    cursor: pointer;
+}

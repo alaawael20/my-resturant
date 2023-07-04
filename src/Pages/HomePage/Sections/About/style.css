@@ -1,0 +1,13 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 123px;
+}
+
+@media (max-width: 990px) {
+    .about {
+        flex-direction: column;
+    }
+}

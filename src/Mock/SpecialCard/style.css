@@ -1,0 +1,28 @@
+.SpecialCard {
+    display: grid;
+    place-items: center;
+    width: 384px;
+    height: 455px;
+    border: 1px dashed #FFCE6D;
+    background: rgba(160, 128, 64, 0.30);
+    padding: 73px 58px 113px 58px;
+}
+
+.SpecialCard h3 {
+    color: #FFFFFC;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+}
+
+.SpecialCard p {
+    color: #FFFFFC;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 155.3%;
+    letter-spacing: 1.82px;
+    text-transform: capitalize;
+}

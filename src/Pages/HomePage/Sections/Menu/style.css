@@ -1,0 +1,18 @@
+.menu {
+    margin-top: 49px;
+    margin-bottom: 111px;
+    margin-inline: 96px;
+}
+.menu .MenuCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 32px;
+    column-gap: 140px;
+    margin-top: 70px;
+}
+@media (max-width: 1400px) {
+    .menu .MenuCards {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+}
