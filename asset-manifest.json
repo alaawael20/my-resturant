@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-resturant/static/css/main.fab61713.css",
+    "main.js": "/my-resturant/static/js/main.e7299652.js",
+    "static/media/background2.gif": "/my-resturant/static/media/background2.494212487ca77f63180b.gif",
+    "static/media/background1.png": "/my-resturant/static/media/background1.bf8c28f91f4b02a4746e.png",
+    "static/media/cooking.png": "/my-resturant/static/media/cooking.5074bfbde6199cdfb8ab.png",
+    "static/media/blogs1.png": "/my-resturant/static/media/blogs1.423c5a5dd1cd5fad1d2c.png",
+    "static/media/blogs2.png": "/my-resturant/static/media/blogs2.3568158a088c31d5b81e.png",
+    "static/media/blogs3.png": "/my-resturant/static/media/blogs3.4ed4949b92df15cb3534.png",
+    "static/media/Salad.png": "/my-resturant/static/media/Salad.84116c4efdbc1e84eb9b.png",
+    "static/media/flat.png": "/my-resturant/static/media/flat.ab63778dfb7d4327f3d1.png",
+    "static/media/Ellipse2.png": "/my-resturant/static/media/Ellipse2.02c70fdd6ae6a6ac9a6b.png",
+    "static/media/Ellipse1.png": "/my-resturant/static/media/Ellipse1.53a76bb2ab9f61c0c5a7.png",
+    "static/media/menu3.png": "/my-resturant/static/media/menu3.d5467860633a1ff56e11.png",
+    "static/media/menu2.png": "/my-resturant/static/media/menu2.51b8604d7ebe6a0e5011.png",
+    "index.html": "/my-resturant/index.html",
+    "main.fab61713.css.map": "/my-resturant/static/css/main.fab61713.css.map",
+    "main.e7299652.js.map": "/my-resturant/static/js/main.e7299652.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fab61713.css",
+    "static/js/main.e7299652.js"
+  ]
+}
